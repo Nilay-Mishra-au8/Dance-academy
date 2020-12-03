@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#logo{
+    display: flex;
+    color:white;
+    align-items: center;
+    margin: 0 14px;
+   
+}
+
+#logo img{
+    height: 26px;
+    background: linear-gradient(57deg, black , red , orange );
+   
+    filter: invert(1);
+   
+}
+
+#navbar{
+    background: linear-gradient(57deg, black , red , orange );
+    
+    
+    padding: 13px 36px;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+#navbar ul{
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+#navbar li{
+    list-style: none;
+}
+
+#navbar li a{
+    text-decoration: none;
+    padding: 13px 15px;
+    color: white;
+    font-size: 20px;
+}
+
+#navbar li a:hover{
+    color: black;
+    background: linear-gradient(57deg , red , orange );
+}
+
+#introSection{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: center / cover no-repeat url("/static/1.jpg");
+    height: 550px;
+    background-color: blue;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 26px;
+}
+
+#introSection div{
+    font-size: larger;
+}
+#introSection div.small{
+    font-size: large;
+    padding: 5px;
+}
+
+#sponsorsSection{
+height: 300px;
+background-color: white;
+}
+
+
+#missionSection{
+    height: 326px;; 
+    width: 100%;
+    margin: auto;
+    background:linear-gradient(57deg, orange , pink);
+}
+
+#missionSection h2{
+    font-size: 36px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding-top: 12px;
+  
+}
+.card{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    margin: 21px 13px;
+    height: 209px;
+    display: inline-block;
+    background-color: white;
+}
+
+
+.card h3{
+    text-align: center;
+    margin: 0 12px;
+    margin-top: 24px;
+    font-family: 'Montserrat', sans-serif;
+   
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+    
+
+}
+
+.card-img{
+    height: 131px;
+    padding: 0 14px;
+    margin: 5px 9px;
+   
+}
+.card-img img{
+    height: inherit;
+    padding: 0PX 90PX
+
+}
+
+
+
+
+   
+#sponsorsSection h2{
+font-size: 36px;
+text-align: center;
+padding-top: 23px;
+font-family: 'Montserrat', sans-serif;
+
+
+}
+#sec{
+    height: 120px;
+    max-width: 100px;
+    margin: auto
+}
+
+.spImage{
+    height: 80px;
+    margin: 0px 72px;
+}
+
+
+#footer{
+display: flex;
+color: white;
+height: 20px;
+background-color: black;
+justify-content: center;
+align-items: center;
+font-size: 10px;
+font-family: 'Montserrat', sans-serif;
+}
